@@ -1,0 +1,165 @@
+#name:focus,
+#birthday:focus,
+#state:focus,
+#email:focus,
+#comments:focus,
+#username:focus,
+#password:focus,
+#confirm:focus
+{
+	background-color: #FDD041;
+}
+
+.login{
+position: absolute; 
+top:4cm;
+left:13cm;
+font-size:40px;
+}
+
+.blockInLoginForm{	
+position: absolute; 
+top:7cm;
+left:12cm;	
+	
+}
+
+.badUser{
+font-size:40px;	
+}
+
+.loginShowAll{
+position: absolute; 
+top:4.5cm;
+left:10.5cm;
+font-size:40px;
+width:700px;
+}
+
+.blockInForm{
+	
+position: absolute; 
+top:8cm;
+left:1.75cm;	
+	
+}
+
+.administratorInterface{
+position: absolute; 
+top:4cm;
+left:10cm;
+font-size:40px;
+	
+}
+
+.blockInAdministratorInterfaceForm{
+position: absolute; 
+top:7cm;
+left:13cm;		
+}
+
+.registration{
+position: absolute; 
+top:4cm;
+left:2cm;
+font-size:40px;
+}
+
+.blockInRegistration{
+	
+position: absolute; 
+top:6.5cm;
+left:2cm;	
+	
+}
+
+.privacy{
+position: absolute; 
+top:16.5cm;
+left:2cm;	
+width:500px;
+font-size:12px;
+}
+
+.blockInWelcome{
+	
+position: absolute; 
+top:4.5cm;
+left:2cm;	
+	
+}
+
+.footer{
+position: absolute; 
+left:7cm;
+top:12cm;
+font-size:14px;
+    text-align:center;
+	width:580px;
+	margin-top:90px;
+	border-top:2px solid #dfdfdf;
+}
+
+.footerOnRegistration{
+position: absolute; 
+left:7cm;
+top:18cm;
+font-size:14px;
+    text-align:center;
+	width:580px;
+	margin-top:90px;
+	border-top:2px solid #dfdfdf;
+}
+
+.footerOnWelcome{
+position: absolute; 
+left:7cm;
+top:12cm;
+font-size:14px;
+    text-align:center;
+	width:580px;
+	margin-top:90px;
+	border-top:2px solid #dfdfdf;
+}
+.footerOnShowAll{
+	position: absolute; 
+left:0cm;
+top:14cm;
+font-size:14px;
+    text-align:center;
+	width:1150px;
+	margin-top:90px;
+	border-top:2px solid #dfdfdf;
+}
+
+
+/* table decoration */
+
+table {
+ border: solid 1px darkgrey; 
+}
+
+th{
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
+font-size: 17px;
+line-height: 20px;
+font-style: normal;
+font-weight: normal;
+text-align: left;
+padding: 5px;
+background-color: #D3D3D3;
+}
+
+td{
+	line-height: 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+	background-color: #E0E0E0;
+}
+
+
+
+
+
+

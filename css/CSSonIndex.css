@@ -1,0 +1,392 @@
+/* CSS for header and home page. */
+/* Author: Christine Shields & Mike Northrop */
+/* Form specs on all pages */
+
+form{
+position: absolute; 
+width:1200px;
+left:5cm;
+}
+
+#form label.error {
+	font-size: 1em;
+	color: #F00;
+	font-weight: bold;
+  padding-left: 5px;
+}
+
+#form input.error, #form select.error {
+	background: #FFA9B8;
+	border: 1px solid red;
+}
+
+/* Logo specs on all pages */
+.logo{
+position: absolute; 
+width:10%;
+top:.3cm;
+}
+
+.logoline{
+position: absolute; 
+left:3.45cm;
+top:.75cm;
+font-size:24px;
+font-weight:bold;
+font-family:'Garamond';
+color:#993333;
+}
+
+
+/* Home Page Banner Image */
+
+.room{
+position:absolute;
+top:2.7cm;
+width:1140px;
+}
+
+
+
+/*Left Block Over Banner Image */
+.leftblock{
+position:absolute;
+top:3.7cm;
+left:1cm;
+background-color:#D0D0BB;
+color:#D0D0BB;
+height:400px;
+width:315px;
+opacity:0.85;
+filter:alpha(opacity=80); /*for IE 8 and earlier*/
+
+}
+ 
+.block1{
+position: absolute; 
+top: 4.4cm;
+left:1.4cm;
+list-style-type:none;
+padding:1px;
+width:280px;
+}
+
+
+.block2{
+position: absolute; 
+left:1.4cm;
+top: 6.8cm;
+list-style-type:none;
+padding:1px;
+width:280px;
+}
+
+
+.block3{
+position: absolute; 
+left:1.4cm;
+top: 9.6cm;
+list-style-type:none;
+padding:1px;
+width:280px;
+}
+
+.labels{
+/*color:#730000;*/
+font-size:24px;
+font-weight:bold;
+font-family:'Garamond';
+color:#993333;
+}
+
+
+
+/* Link Style*/
+a:link,a:visited {
+color:#808080;
+	text-decoration:none;
+}
+
+
+a.leftBlockLinks{
+color:#993333;
+font-size:24px;
+font-weight:bold;
+font-family:'Garamond';
+	
+}
+
+a:hover,a:active {
+	color:blue;
+	text-decoration:underline;
+}
+
+/* Statement under banner image */
+
+.statement1{
+position: absolute; 
+top: 17.9cm;
+list-style-type:none;
+font-size:20px;
+font-weight:bold;
+color:black;
+width:920px;
+}
+.name{
+font-size:16px;
+}
+
+
+
+/*Unknown
+.registered{
+font-size:14px;
+position: absolute;
+top:.7cm;
+left:2.1cm;
+}
+
+End of Unknown*/
+
+/* Footer */
+
+.footer{
+position: absolute; 
+left:7cm;
+top:19cm;
+font-size:14px;
+    text-align:center;
+	width:580px;
+	margin-top:90px;
+	border-top:2px solid #dfdfdf;
+}
+
+
+
+/*Top Navigation Starts Here*/
+
+li{
+text-align:left;
+list-style:none;
+}
+
+.drop{
+display:none;
+z-index:1;
+}
+
+
+.menu2{
+position: absolute; 
+height:35px;
+top: 1.5cm;
+list-style-type:none;
+left:17.1cm;
+padding:1px;
+font-size:18px;
+font-weight:bold;
+color:#585858;
+text-align:center;
+width:130px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+}
+
+
+.menu3{
+position: absolute; 
+height:35px;
+top: 1.5cm;
+list-style-type:none;
+left:21.4cm;
+padding:1px;
+font-size:18px;
+font-weight:bold;
+color:#585858;
+text-align:center;
+width:130px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+}
+
+.menu4{
+position: absolute; 
+height:35px;
+top: 1.5cm;
+list-style-type:none;
+left:25.5cm;
+padding:1px;
+font-size:18px;
+font-weight:bold;
+color:#585858;
+text-align:center;
+width:170px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+}
+.menu5{
+position: absolute; 
+height:12px;
+list-style-type:none;
+left:22.3cm;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:#808080;
+text-align:center;
+width:50px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+border-right:1px solid gray;
+}
+.menu6{
+position: absolute; 
+height:12px;
+list-style-type:none;
+left:23.6cm;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:#808080;
+text-align:center;
+width:85px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+
+}
+
+.menu7{
+position: absolute; 
+height:12px;
+list-style-type:none;
+left:25.8cm;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:#808080;
+text-align:center;
+width:80px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+border-right:1px solid gray;
+border-left:1px solid gray;
+}
+
+.menu8{
+position: absolute; 
+height:35px;
+list-style-type:none;
+left:27.5cm;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:#808080;
+text-align:center;
+width:100px;
+margin:1px;
+font-family:'Times New Roman', Times, serif;
+z-index:1;
+padding-left:12px;
+}
+
+
+.a:hover .drop{
+display: block;
+z-index:1;
+text-align:center;
+font-size:16px;
+font-family:'Times New Roman', Times, serif;
+padding:2px;
+margin:1px;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#BEBEBE'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#BEBEBE)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #FFFFFF,  #BEBEBE); /* for firefox 3.6+ */ 
+z-index:1;
+text-decoration:none;
+}
+
+.welcome {
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+font-weight:bold;
+font-size:large;
+color:#993333;
+}
+
+
+/* Privacy Page */
+
+.privacyStatement{
+font-size:40px;
+}
+
+.privacyMessage{
+	position: absolute; 
+	top:3cm;
+	font-size:10px;
+	width:600px
+}	
+
+
+/* About Page */
+
+.aboutStatement{
+font-size:40px;
+	
+}
+.aboutMessage{
+	position: absolute; 
+	top:3cm;
+	font-size:18px;
+	width:600px
+}
+
+
+/* Contact Us Page */
+
+.contactStatement{
+font-size:40px;
+	
+}
+.contactMessage{
+	position: absolute; 
+	top:4cm;
+	font-size:18px;
+	width:600px
+}
+
+/* Community Engagement Page */
+.communityStatement{
+font-size:40px;
+	
+}
+.communityMessage{
+	position: absolute; 
+	top:3cm;
+	font-size:18px;
+	width:500px
+}
+
+.foodShelf{
+	position: absolute; 
+	top:6.8cm;
+	left:14.5cm;
+	font-size:18px;
+	width:500px
+}	
+.sharingImage{
+width:75%;
+
+}
+
+.foodShelfImage{
+width:75%;
+}

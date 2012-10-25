@@ -1,0 +1,5 @@
+jay,12345678,Jay,Leno,4/28/1950,SD,male,jayleno@nbc.com,on,"No comment",Member
+dave,abcd1234,Dave,Letterman,4/12/1947,IA,male,dave@cbs.com,on,"Me make people laugh",Member
+mike,whatever,Mike,Northrop,5/9/1981,MN,other,mike@theartbus.com,on,"I&#39;m cool",Admin
+conan,1234abcd,Conan,O&#39;Brien,4/18/1963,ND,male,conan@tbs.com,,"Leno sucks",Member
+cshields,12345678,Christine,Shields,5/4/1982,MN,female,cs@theartbus.com,,"I&#39;m pretty sure this is one the of the best sites ever.",Admin

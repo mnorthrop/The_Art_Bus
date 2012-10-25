@@ -1,0 +1,608 @@
+
+/*	Page style */
+
+
+#container {   
+	width:850px;
+	padding:10px;
+	margin:0 auto;
+	position:absolute;
+	top:-2cm;
+	z-index:0;
+	left:-6cm;
+	
+}
+
+
+
+/*	Footer */
+
+.footer{
+position: absolute; 
+left:0cm;
+top:24.5cm;
+font-size:14px;
+font-size:14px;
+    text-align:center;
+	width:1150px;
+	margin-top:20px;
+	border-top:2px solid #dfdfdf;
+}
+
+
+/*	Anchors */
+
+a:link,a:visited {
+color:#808080;
+	text-decoration:none;
+}
+
+a:hover,a:active {
+	color:blue;
+	text-decoration:underline;
+}
+
+
+/*Banner Image on each Category Page*/
+
+
+.roomBannerForPaint{
+position: absolute; 
+top:3cm;
+left:.1cm;
+width:67%;
+
+}
+
+.roomBannerForPaintings{
+position: absolute; 
+top:3cm;
+left:.1cm;
+width:67%;
+}
+
+.roomBannerForDecor{
+position: absolute; 
+top:3cm;
+left:.1cm;
+width:67%;
+
+}
+
+
+/* Message on right side of banner */
+
+.bannerMessage{
+position: absolute; 
+top:2.5cm;
+left:22cm;
+width:300px;
+}
+
+.b1{
+font-size:28px;
+font-family:Georgia;
+color:#993333;
+}
+.b2{
+font-size:22px;
+font-family:Georgia;
+}
+.b3{
+font-size:14px;
+font-family:Georgia;
+}
+.b4{
+font-size:14px;
+font-family:Georgia;
+}
+
+
+/*Paint Color Section */
+
+.redPaintSample{
+position: absolute; 
+left:-.1cm;
+top: 13.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorRed{
+position: absolute; 
+left:3.9cm;
+top: 13.6cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.greenPaintSample{
+position: absolute; 
+left:-.1cm;
+top: 18.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorGreen{
+position: absolute; 
+left:3.9cm;
+top: 18.6cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.grayPaintSample{
+position: absolute; 
+left:7.4cm;
+top: 13.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorGray{
+position: absolute; 
+left:11.4cm;
+top: 13.6cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.yellowPaintSample{
+position: absolute; 
+left:14.9cm;
+top: 13.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorYellow{
+position: absolute; 
+left:18.9cm;
+top: 13.6cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.purplePaintSample{
+position: absolute; 
+left:7.4cm;
+top: 18.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorPurple{
+position: absolute; 
+left:11.4cm;
+top: 18.6cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.bluePaintSample{
+position: absolute; 
+left:23.1cm;
+top: 13.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorBlue{
+position: absolute; 
+left:27.1cm;
+top: 13.6cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+.orangePaintSample{
+position: absolute; 
+left:14.9cm;
+top: 18.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.colorOrange{
+position: absolute; 
+left:18.9cm;
+top: 18.6cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+/* Paintings  Section*/
+
+.painting1{
+position: absolute; 
+left:-.2cm;
+top: 13.6cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.paint1Desc{
+position: absolute; 
+left:3.9cm;
+top: 13.3cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.painting2{
+position: absolute; 
+left:-.4cm;
+top: 18.1cm;
+padding:10px;
+width:170px;
+height:150px;
+}
+.paint2Desc{
+position: absolute; 
+left:4cm;
+top: 18.5cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.painting3{
+position: absolute; 
+left:7.5cm;
+top: 13.5cm;
+padding:10px;
+width:155px;
+height:150px;
+}
+.paint3Desc{
+position: absolute; 
+left:11.6cm;
+top: 13.3cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.painting4{
+position: absolute; 
+left:7.3cm;
+top: 18.2cm;
+padding:10px;
+width:165px;
+height:150px;
+}
+.paint4Desc{
+position: absolute; 
+left:11.6cm;
+top: 18.5cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.painting5{
+position: absolute; 
+left:15cm;
+top: 13.5cm;
+padding:10px;
+width:155px;
+height:150px;
+}
+.paint5Desc{
+position: absolute; 
+left:19.2cm;
+top: 13.3cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.painting6{
+position: absolute; 
+left:23.2cm;
+top: 13.5cm;
+padding:10px;
+width:155px;
+height:150px;
+}
+.paint6Desc{
+position: absolute; 
+left:27.4cm;
+top: 13.3cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.painting7{
+position: absolute; 
+left:14.9cm;
+top: 18cm;
+padding:10px;
+width:170px;
+height:150px;
+}
+.paint7Desc{
+position: absolute; 
+left:19.2cm;
+top: 18.5cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+/* Decor Section Here  */
+
+.Decor1{
+position: absolute; 
+left:-.6cm;
+top: 13.8cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.Decor1Desc{
+position: absolute; 
+left:2.7cm;
+top: 13.8cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.Decor2{
+position: absolute; 
+left:-.7cm;
+top: 18.6cm;
+padding:10px;
+width:150px;
+height:160px;
+}
+.Decor2Desc{
+position: absolute; 
+left:2.7cm;
+top: 18.9cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.Decor3{
+position: absolute; 
+left:6.9cm;
+top: 13.7cm;
+padding:10px;
+width:150px;
+height:150px;
+}
+.Decor3Desc{
+position: absolute; 
+left:10cm;
+top: 13.8cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.Decor4{
+position: absolute; 
+left:7cm;
+top: 18.8cm;
+padding:10px;
+height:150px;
+}
+.Decor4Desc{
+position: absolute; 
+left:10.2cm;
+top: 18.8cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.Decor5{
+position: absolute; 
+left:14.7cm;
+top: 13.5cm;
+padding:10px;
+height:170px;
+
+}
+.Decor5Desc{
+position: absolute; 
+left:18.2cm;
+top: 13.8cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.Decor6{
+position: absolute; 
+left:14.7cm;
+top: 18.8cm;
+padding:10px;
+height:160px;
+}
+.Decor6Desc{
+position: absolute; 
+left:18.2cm;
+top: 18.9cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+.Decor7{
+position: absolute; 
+left:22.2cm;
+top: 13.6cm;
+padding:10px;
+height:160px;
+
+}
+.Decor7Desc{
+position: absolute; 
+left:25.8cm;
+top: 13.8cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.labels{
+font-size:30px;
+font-weight:bold;
+font-family:'Garamond';
+}
+
+
+
+/* Store Front Style */
+
+.block1Image{
+position: absolute; 
+left:-.2cm;
+top: 6.2cm;
+height:225px;
+margin:10px;
+font-size:16px;
+color:black;
+
+}
+
+.content_block1{
+position: absolute; 
+left:-.5cm;
+top: 12.5cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.block2Image{
+position: absolute; 
+left:10.4cm;
+top: 6.3cm;
+height:225px;
+margin:10px;
+font-size:16px;
+color:black;
+
+}
+.content_block2{
+position: absolute; 
+left:10.4cm;
+top: 12.5cm;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+.block3Image{
+position: absolute; 
+left:20.5cm;
+top: 6.2cm;
+height:230px;
+margin:10px;
+font-size:16px;
+color:black;
+
+}
+.content_block3{
+position: absolute; 
+left:21cm;
+top: 12.5cm;
+list-style-type:none;
+padding:10px;
+width:280px;
+margin:10px;
+font-size:16px;
+color:black;
+}
+
+
+
+
+
+
+
