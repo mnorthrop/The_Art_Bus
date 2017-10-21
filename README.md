@@ -10,10 +10,11 @@ Download these files and upload them to your hosting service to use as your webs
 
 ## Different Code Used
 * [HTML](https://html.com/) - standard markup language for creating web pages and web applications
-* CSS -  stylesheet language used to describe the presentation of a document written in HTML
-* [PHP](http://php.net/) - open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - interpreted programming or script language from Netscape.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) -  stylesheet language used to describe the presentation of a document written in HTML
+* [PHP](http://php.net/) - open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - interpreted programming or script language from Netscape
+* [Eclipse](https://www.eclipse.org/ide/) - Integrated Development Environment
 
 ## Authors
 * **Mike Northrop** - *Coding,Documentation*
-* **Christine ** - *Coding,Design*
+* **Christine Shields** - *Coding,Design*
